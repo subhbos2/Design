@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Jfdnf2rN10MVt8Xyi1gZug" name="component_design,_tCLsQVtcEd6bpPG1p_gnYA" guid="-Jfdnf2rN10MVt8Xyi1gZug" version="7.5.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lay-i9uAQd3PVGeI7GShyg" name="develop_component_design,_KAW4kiMyEeeUtaCESunVxw" guid="-lay-i9uAQd3PVGeI7GShyg">
+    <keyConsiderations>Leverage existing assets and design patterns where possible to maximize reuse in the design.&lt;br />&#xD;
+&lt;p>&#xD;
+    Each component realization developed must conform to its corresponding component specification in the&#xD;
+    architecture.&amp;nbsp;&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hAJuTpzdb-lve571APoapg" name="application_architect,_KAW4lSMyEeeUtaCESunVxw" guid="-hAJuTpzdb-lve571APoapg">
+    <refinedDescription>&lt;p>
+    This role defines best practices in the critical evaluation and selection and / or development of the software
+    components and hardware requirements of the applications and data, and the development of the application, including
+    evaluation and selection of development methods, development processes, best practices and tools. Applications
+    Architects are responsible for applications-related quality, performance, availability, scalability, and integrity.
+    They are also responsible for the functional interface to applications and for ensuring application usability.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XrAbdEW1avKVKypYjlWr8Q" name="component_design,_KAXfoSMyEeeUtaCESunVxw" guid="-XrAbdEW1avKVKypYjlWr8Q">
+    <keyConsiderations>&lt;p>&#xD;
+    In circumstances where the design of a component involves applying well understood, existing strategies, it is possible&#xD;
+    that you will not need a &lt;em>new&lt;/em> design. In those cases, you can simply refer to some existing design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Decide on the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Properties to include&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether or not any extensions to the Unified Modeling Language (UML) are needed; for example, your project may&#xD;
+        require additional stereotypes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The level of formality applied to the model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the model is mapped to other models, such as an architectural models and how&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether a single model or multiple models will be used&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How the model is mapped to an implementation model (this is very much affected by the decision to use&#xD;
+        reverse-engineering, code generation, or round-trip engineering); see Concept: Mapping from Code to Design&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is a specification of the internal structure and behavior of one or more major structural elements&#xD;
+    (components) of a system.&amp;nbsp; Each component realization describes the internal behaviors of a component that realize&#xD;
+    its interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3oEQ06VdrgpWU233RxntQw" name="establish_comp_analysis_design_guidelines,_KAXfoiMyEeeUtaCESunVxw" guid="-3oEQ06VdrgpWU233RxntQw">
+    <refinedDescription>&lt;p>&#xD;
+    Establish project-specific guidelines for design. Modify and extend an existing set of guidelines. Avoid developing a&#xD;
+    completely new set of guidelines. In general, Analysis and Design Guidelines should provide policy in the following&#xD;
+    design areas: identification of concurrency, management of data stores, handling global resources, dealing with&#xD;
+    boundary conditions, setting tradeoff priorities, designing algorithms, design optimization, implementation of control&#xD;
+    Inheritance, design of associations, object representation and physical packaging.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UdVOby6Cxb6rhqIMo55aVA" name="analysis_design_guidelines,_KAYGsCMyEeeUtaCESunVxw" guid="-UdVOby6Cxb6rhqIMo55aVA">
+    <keyConsiderations>&lt;ul>
+    &lt;li>
+        &lt;div>
+            The guidelines should be in place before doing any analysis or design.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Any analysis and design education must be consistent with the guidelines.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            The guidelines should be minimal but sufficient to ensure that the analysis and design work products are
+            understandable, usable, and consistent.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Use work product templates where relevant. Ensure that each team member can access the templates.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Use standard guidelines where they are available and appropriate. Modify these only as necessary. Use standard
+            notation guidelines where they are available and appropriate. Modify these only as necessary.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            If your guidelines are novel, publish them for others to comment upon and to use.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Harvest good templates from the workbooks of other projects.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Use the guidelines as entry criteria to analysis and design reviews. Adherence to the guidelines should be part
+            of any review. Unjustified deviation should be identified and brought to the attention of the appropriate team
+            leader.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            If the project team consists largely of novices, more prescriptive guidelines might be appropriate.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Briefly review the guidelines at the end of each phase to check their adequacy and completeness.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Remember that the guidelines should be a living document that is updated over the course of the engagement.
+            Change or add to the guidelines during the project if necessary. Keep guidelines under change control, and
+            disallow amendments through a memo, oral directive, or other informal process.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Include statements about what is the expected completion criterion for the analysis and design work products
+            for each phase.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Provide rules only if the lack of rules will lead to confusion or inefficiency.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Be sure that writing guidelines does not become a distraction from the real work.
+        &lt;/div>
+    &lt;/li>
+    &lt;li>
+        &lt;div>
+            Do not be over-prescriptive.
+        &lt;/div>
+    &lt;/li>
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>
+    The Analysis and Design Guidelines describe extensions, modifications and interpretations of the standard work products
+    and processes.&amp;nbsp; The Analysis and Design Guidelines work product might detail things such as notational changes
+    (possibly required by a modeling tool) or a different approach to reviewing work products (possibly including some
+    third-party reviewer performing an audit or product assurance role).
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yVTbwYNeEKZ7CkJ6S_zdkA" name="update_component_design,_KAWRhCMyEeeUtaCESunVxw" guid="-yVTbwYNeEKZ7CkJ6S_zdkA">
+    <refinedDescription>Make any required changes to the design based on the current implementation.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TUHa8W3-9G-GGt1NRlf70w" name="application_developer,_KAWRgyMyEeeUtaCESunVxw" guid="-TUHa8W3-9G-GGt1NRlf70w">
+    <refinedDescription>&lt;p>
+    Typical examples of the deliverables are functional and technical designs, models, components, code, unit tests, and
+    documentation.&amp;nbsp; IT Specialists who primarily apply their technical skills in an internal or external customer
+    billable services and implementation environment.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-g_NdBMOC6Ebj60MlNw_89Q" name="component_design,_KAWRgiMyEeeUtaCESunVxw" guid="-g_NdBMOC6Ebj60MlNw_89Q">
+    <keyConsiderations>&lt;p>&#xD;
+    In circumstances where the design of a component involves applying well understood, existing strategies, it is possible&#xD;
+    that you will not need a &lt;em>new&lt;/em> design. In those cases, you can simply refer to some existing design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Decide on the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Properties to include&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether or not any extensions to the Unified Modeling Language (UML) are needed; for example, your project may&#xD;
+        require additional stereotypes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The level of formality applied to the model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the model is mapped to other models, such as an architectural models and how&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether a single model or multiple models will be used&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How the model is mapped to an implementation model (this is very much affected by the decision to use&#xD;
+        reverse-engineering, code generation, or round-trip engineering); see Concept: Mapping from Code to Design&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is a specification of the internal structure and behavior of one or more major structural elements&#xD;
+    (components) of a system.&amp;nbsp; Each component realization describes the internal behaviors of a component that realize&#xD;
+    its interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-44d2ZYVfh-zCMDv9Is6_cA" name="update_component_design,_KAYtwSMyEeeUtaCESunVxw" guid="-44d2ZYVfh-zCMDv9Is6_cA">
+    <refinedDescription>Make any required changes to the design based on the current implementation.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--MQSsEG7B2GfDOwFcVv8qg" name="application_developer,_KAYGtSMyEeeUtaCESunVxw" guid="--MQSsEG7B2GfDOwFcVv8qg">
+    <refinedDescription>&lt;p>
+    Typical examples of the deliverables are functional and technical designs, models, components, code, unit tests, and
+    documentation.&amp;nbsp; IT Specialists who primarily apply their technical skills in an internal or external customer
+    billable services and implementation environment.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-p5hHo_XPhd5Q-SrhQlmXhQ" name="component_design,_KAYGtCMyEeeUtaCESunVxw" guid="-p5hHo_XPhd5Q-SrhQlmXhQ">
+    <keyConsiderations>&lt;p>&#xD;
+    In circumstances where the design of a component involves applying well understood, existing strategies, it is possible&#xD;
+    that you will not need a &lt;em>new&lt;/em> design. In those cases, you can simply refer to some existing design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Decide on the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Properties to include&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether or not any extensions to the Unified Modeling Language (UML) are needed; for example, your project may&#xD;
+        require additional stereotypes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The level of formality applied to the model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the model is mapped to other models, such as an architectural models and how&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether a single model or multiple models will be used&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How the model is mapped to an implementation model (this is very much affected by the decision to use&#xD;
+        reverse-engineering, code generation, or round-trip engineering); see Concept: Mapping from Code to Design&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is a specification of the internal structure and behavior of one or more major structural elements&#xD;
+    (components) of a system.&amp;nbsp; Each component realization describes the internal behaviors of a component that realize&#xD;
+    its interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-W7HFsIomK8oLsQQBAu0KVA" name="design_deliverable_0516,_zGETcEeWEeeamP9eYgxfAQ" guid="-W7HFsIomK8oLsQQBAu0KVA">
+    <refinedDescription>&lt;p>&#xD;
+    The&amp;nbsp;Design Deliverable&amp;nbsp;consists of the following as appropriate:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture Overview Diagrams depicting the current and to-be architectures.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Entity Relationship Diagram for the Logical Data Model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Application Component Relationship and Sequence Models, and other application-related requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Descriptions of other considerations that affect the architecture and design (e.g., Job Scheduling Considerations,&#xD;
+        Data Conversion Requirements, Data Interchange Requirements, etc.).&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This is also referred to as high-level or macro design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project’s Design Deliverable may be part of a larger design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specify cross-release technical details&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Address the global architectural issues which effect all iterations or releases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Minimize long term development cost by eliminating as much rework, from release to release, as possible.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Further, the business marketplace is characterized today by constant change.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure flexible systems that can accommodate unforeseen change&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Present a high-level application-specific design that allows for iteratively prototyping&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Designing the architecture:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Architectural Overview Diagram – Simple, brief, clear and understandable schematic diagram that includes&#xD;
+                subsystems, components, nodes, connections, data stores, uses, external systems and supporting text. Note&#xD;
+                that this is usually based on the client’s reference architecture patterns.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Component Model – How the application as a whole is structured across releases, including how major parts&#xD;
+                of the application communicate with one another and how project releases are consistent with the overall&#xD;
+                structure of the application.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Operational Model – Defines the hardware/software/network infrastructure required across releases,&#xD;
+                including how the components are distributed to the various infrastructure nodes and how project releases&#xD;
+                share a consistent infrastructure with other releases.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Architectural Templates – Defines the cross-release application architectural framework that defines the&#xD;
+                major application design standards, including appropriate approach to common design problems and proper&#xD;
+                evaluation and selection of products and technologies.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requirements traceability – Provides a cross-reference between all components above and the requirements&#xD;
+                listed in the AWD Accelerator Plan. Refer to Requirements Traceability Matrix for more information.&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Designing the release-specific application:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Logical Data Model in an Entity-Relationship Diagram (ERD) – Capture the business entities, attributes and&#xD;
+                relationships in the system, along with their attributes, keys and fully normalized form for an optimal&#xD;
+                physical database.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                System Process Model in a Data Flow Diagram (DFD) – Capture the automated system processes required to&#xD;
+                support the business requirements and the structuring, relationships and flow between processes, including&#xD;
+                interfaces and data exchanges.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Application Model – Platform dependent approach that includes the program module invocation model,&#xD;
+                high-level module specifications, transaction descriptions and the physical database design to enable code&#xD;
+                development.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requirements traceability – Provides a cross-reference between all components above and the requirements&#xD;
+                listed in the AWD Accelerator Plan. Refer to Requirements Traceability Matrix for more information.&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring the infrastructure supports iterative development, provides consistent use, and uses AWD-dedicated&#xD;
+        equipment.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring design and architectural approaches identify and leverage reuse opportunities&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Obtaining standard client certification, if applicable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Required for applications that change standard end-user configurations&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Certifies the application will not adversely affect other client-side applications&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requires application registration and architectural reviews&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Providing standards, components and assistance to application teams on:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                User interfaces – Address the global, cross-release design decisions regarding the user interface and help&#xD;
+                establish the user interface and usability design guidelines, e.g., various window layouts and flows within&#xD;
+                the user interface are consistent from release to release.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Solution plans – Create/evolve various plans (e.g., test, training and user support, deployment) from&#xD;
+                outlining general approaches to specific executable plans.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Static testing – Test work products using techniques such as inspection, walk through, prototyping,&#xD;
+                reviews, checklists, mapping and structured workshops to ensure defects are found as close to their source&#xD;
+                as possible and fixed early in the life-cycle before they are passed on.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Test specifications – Build test specifications that define and describe the test architecture, elements,&#xD;
+                approach, data and expected results to verify what the system must do and help prioritize the tests to be&#xD;
+                performed within the available time and resources while mitigating testing risks (also identifies the&#xD;
+                hardware, software, processes and tools required to set up, operate and maintain the test environment&#xD;
+                infrastructure).&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Leveraging JAD/JAR techniques (see description in Step 1 above), where appropriate.&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Balancing architectural approaches/standards at various levels: company vs. AWD Center or Program vs. AWD Cell vs.&#xD;
+        AWD Project&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring the customer’s strategic products and architectures are iteratively enabled through project delivery&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Refer to Application and Technical Architecture and Data Flow Diagrams and Systems Interfaces for more information.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wnUX6TpdAun1p4U54dtPhg" name="launch_package_0517,_zGETc0eWEeeamP9eYgxfAQ" guid="-wnUX6TpdAun1p4U54dtPhg">
+    <refinedDescription>The team continually integrates and maintains working code, and incrementally builds the build cycle physical package&#xD;
+throughout the project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-amh0tklqRxBPRCQJisaTyA" name="launch_package_0517,_zGr-gUeWEeeamP9eYgxfAQ" guid="-amh0tklqRxBPRCQJisaTyA">
+    <refinedDescription>The team continually integrates and maintains working code, and incrementally builds the build cycle physical package&#xD;
+throughout the project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lJ1xG5dac0P1Cj0YNg7_lg" name="design_deliverable_0516,_zGr-hEeWEeeamP9eYgxfAQ" guid="-lJ1xG5dac0P1Cj0YNg7_lg">
+    <refinedDescription>&lt;p>&#xD;
+    The&amp;nbsp;Design Deliverable&amp;nbsp;consists of the following as appropriate:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture Overview Diagrams depicting the current and to-be architectures.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Entity Relationship Diagram for the Logical Data Model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Application Component Relationship and Sequence Models, and other application-related requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Descriptions of other considerations that affect the architecture and design (e.g., Job Scheduling Considerations,&#xD;
+        Data Conversion Requirements, Data Interchange Requirements, etc.).&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This is also referred to as high-level or macro design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project’s Design Deliverable may be part of a larger design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specify cross-release technical details&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Address the global architectural issues which effect all iterations or releases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Minimize long term development cost by eliminating as much rework, from release to release, as possible.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Further, the business marketplace is characterized today by constant change.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure flexible systems that can accommodate unforeseen change&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Present a high-level application-specific design that allows for iteratively prototyping&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Designing the architecture:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Architectural Overview Diagram – Simple, brief, clear and understandable schematic diagram that includes&#xD;
+                subsystems, components, nodes, connections, data stores, uses, external systems and supporting text. Note&#xD;
+                that this is usually based on the client’s reference architecture patterns.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Component Model – How the application as a whole is structured across releases, including how major parts&#xD;
+                of the application communicate with one another and how project releases are consistent with the overall&#xD;
+                structure of the application.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Operational Model – Defines the hardware/software/network infrastructure required across releases,&#xD;
+                including how the components are distributed to the various infrastructure nodes and how project releases&#xD;
+                share a consistent infrastructure with other releases.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Architectural Templates – Defines the cross-release application architectural framework that defines the&#xD;
+                major application design standards, including appropriate approach to common design problems and proper&#xD;
+                evaluation and selection of products and technologies.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requirements traceability – Provides a cross-reference between all components above and the requirements&#xD;
+                listed in the AWD Accelerator Plan. Refer to Requirements Traceability Matrix for more information.&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Designing the release-specific application:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Logical Data Model in an Entity-Relationship Diagram (ERD) – Capture the business entities, attributes and&#xD;
+                relationships in the system, along with their attributes, keys and fully normalized form for an optimal&#xD;
+                physical database.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                System Process Model in a Data Flow Diagram (DFD) – Capture the automated system processes required to&#xD;
+                support the business requirements and the structuring, relationships and flow between processes, including&#xD;
+                interfaces and data exchanges.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Application Model – Platform dependent approach that includes the program module invocation model,&#xD;
+                high-level module specifications, transaction descriptions and the physical database design to enable code&#xD;
+                development.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requirements traceability – Provides a cross-reference between all components above and the requirements&#xD;
+                listed in the AWD Accelerator Plan. Refer to Requirements Traceability Matrix for more information.&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring the infrastructure supports iterative development, provides consistent use, and uses AWD-dedicated&#xD;
+        equipment.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring design and architectural approaches identify and leverage reuse opportunities&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Obtaining standard client certification, if applicable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Required for applications that change standard end-user configurations&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Certifies the application will not adversely affect other client-side applications&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requires application registration and architectural reviews&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Providing standards, components and assistance to application teams on:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                User interfaces – Address the global, cross-release design decisions regarding the user interface and help&#xD;
+                establish the user interface and usability design guidelines, e.g., various window layouts and flows within&#xD;
+                the user interface are consistent from release to release.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Solution plans – Create/evolve various plans (e.g., test, training and user support, deployment) from&#xD;
+                outlining general approaches to specific executable plans.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Static testing – Test work products using techniques such as inspection, walk through, prototyping,&#xD;
+                reviews, checklists, mapping and structured workshops to ensure defects are found as close to their source&#xD;
+                as possible and fixed early in the life-cycle before they are passed on.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Test specifications – Build test specifications that define and describe the test architecture, elements,&#xD;
+                approach, data and expected results to verify what the system must do and help prioritize the tests to be&#xD;
+                performed within the available time and resources while mitigating testing risks (also identifies the&#xD;
+                hardware, software, processes and tools required to set up, operate and maintain the test environment&#xD;
+                infrastructure).&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Leveraging JAD/JAR techniques (see description in Step 1 above), where appropriate.&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Balancing architectural approaches/standards at various levels: company vs. AWD Center or Program vs. AWD Cell vs.&#xD;
+        AWD Project&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring the customer’s strategic products and architectures are iteratively enabled through project delivery&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Refer to Application and Technical Architecture and Data Flow Diagrams and Systems Interfaces for more information.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xyz_pv0F8T6FxodoM7Q-kw" name="launch_package_0517,_zHIDYUeWEeeamP9eYgxfAQ" guid="-xyz_pv0F8T6FxodoM7Q-kw">
+    <refinedDescription>The team continually integrates and maintains working code, and incrementally builds the build cycle physical package&#xD;
+throughout the project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ksYYv3bYx50P06ZYd1uCMg" name="design_deliverable_0516,_zHIDZEeWEeeamP9eYgxfAQ" guid="-ksYYv3bYx50P06ZYd1uCMg">
+    <refinedDescription>&lt;p>&#xD;
+    The&amp;nbsp;Design Deliverable&amp;nbsp;consists of the following as appropriate:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture Overview Diagrams depicting the current and to-be architectures.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Entity Relationship Diagram for the Logical Data Model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Application Component Relationship and Sequence Models, and other application-related requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Descriptions of other considerations that affect the architecture and design (e.g., Job Scheduling Considerations,&#xD;
+        Data Conversion Requirements, Data Interchange Requirements, etc.).&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This is also referred to as high-level or macro design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project’s Design Deliverable may be part of a larger design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specify cross-release technical details&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Address the global architectural issues which effect all iterations or releases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Minimize long term development cost by eliminating as much rework, from release to release, as possible.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Further, the business marketplace is characterized today by constant change.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure flexible systems that can accommodate unforeseen change&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Present a high-level application-specific design that allows for iteratively prototyping&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Designing the architecture:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Architectural Overview Diagram – Simple, brief, clear and understandable schematic diagram that includes&#xD;
+                subsystems, components, nodes, connections, data stores, uses, external systems and supporting text. Note&#xD;
+                that this is usually based on the client’s reference architecture patterns.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Component Model – How the application as a whole is structured across releases, including how major parts&#xD;
+                of the application communicate with one another and how project releases are consistent with the overall&#xD;
+                structure of the application.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Operational Model – Defines the hardware/software/network infrastructure required across releases,&#xD;
+                including how the components are distributed to the various infrastructure nodes and how project releases&#xD;
+                share a consistent infrastructure with other releases.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Architectural Templates – Defines the cross-release application architectural framework that defines the&#xD;
+                major application design standards, including appropriate approach to common design problems and proper&#xD;
+                evaluation and selection of products and technologies.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requirements traceability – Provides a cross-reference between all components above and the requirements&#xD;
+                listed in the AWD Accelerator Plan. Refer to Requirements Traceability Matrix for more information.&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Designing the release-specific application:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Logical Data Model in an Entity-Relationship Diagram (ERD) – Capture the business entities, attributes and&#xD;
+                relationships in the system, along with their attributes, keys and fully normalized form for an optimal&#xD;
+                physical database.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                System Process Model in a Data Flow Diagram (DFD) – Capture the automated system processes required to&#xD;
+                support the business requirements and the structuring, relationships and flow between processes, including&#xD;
+                interfaces and data exchanges.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Application Model – Platform dependent approach that includes the program module invocation model,&#xD;
+                high-level module specifications, transaction descriptions and the physical database design to enable code&#xD;
+                development.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requirements traceability – Provides a cross-reference between all components above and the requirements&#xD;
+                listed in the AWD Accelerator Plan. Refer to Requirements Traceability Matrix for more information.&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring the infrastructure supports iterative development, provides consistent use, and uses AWD-dedicated&#xD;
+        equipment.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring design and architectural approaches identify and leverage reuse opportunities&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Obtaining standard client certification, if applicable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Required for applications that change standard end-user configurations&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Certifies the application will not adversely affect other client-side applications&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requires application registration and architectural reviews&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Providing standards, components and assistance to application teams on:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                User interfaces – Address the global, cross-release design decisions regarding the user interface and help&#xD;
+                establish the user interface and usability design guidelines, e.g., various window layouts and flows within&#xD;
+                the user interface are consistent from release to release.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Solution plans – Create/evolve various plans (e.g., test, training and user support, deployment) from&#xD;
+                outlining general approaches to specific executable plans.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Static testing – Test work products using techniques such as inspection, walk through, prototyping,&#xD;
+                reviews, checklists, mapping and structured workshops to ensure defects are found as close to their source&#xD;
+                as possible and fixed early in the life-cycle before they are passed on.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Test specifications – Build test specifications that define and describe the test architecture, elements,&#xD;
+                approach, data and expected results to verify what the system must do and help prioritize the tests to be&#xD;
+                performed within the available time and resources while mitigating testing risks (also identifies the&#xD;
+                hardware, software, processes and tools required to set up, operate and maintain the test environment&#xD;
+                infrastructure).&lt;br />&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Leveraging JAD/JAR techniques (see description in Step 1 above), where appropriate.&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Balancing architectural approaches/standards at various levels: company vs. AWD Center or Program vs. AWD Cell vs.&#xD;
+        AWD Project&lt;br />&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring the customer’s strategic products and architectures are iteratively enabled through project delivery&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Refer to Application and Technical Architecture and Data Flow Diagrams and Systems Interfaces for more information.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JDJM_vQHQAUASFkIWMpvSA" name="reapply_ooad_in_subsystem_scope,_XAT3wEeYEeeamP9eYgxfAQ" guid="-JDJM_vQHQAUASFkIWMpvSA">
+    <refinedDescription>Apply OOAD within the confines of&amp;nbsp; the subsystems to define the internals of the components composing the subsystems.&#xD;
+Assets like Recipe for&amp;nbsp;Service Component or Enterprise Component&amp;nbsp;Pattern&amp;nbsp;which provides project accelerators&#xD;
+can now be applied.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ifjvFMJtwvzcDeIYzXeZ5A" name="application_developer,_XAT3wUeYEeeamP9eYgxfAQ" guid="-ifjvFMJtwvzcDeIYzXeZ5A">
+    <refinedDescription>&lt;p>
+    Typical examples of the deliverables are functional and technical designs, models, components, code, unit tests, and
+    documentation.&amp;nbsp; IT Specialists who primarily apply their technical skills in an internal or external customer
+    billable services and implementation environment.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4WVOOk_ZaKUOFKHZJEvTcA" name="data_specialist,_XAT3w0eYEeeamP9eYgxfAQ" guid="-4WVOOk_ZaKUOFKHZJEvTcA">
+    <refinedDescription>&lt;p>
+    Typical examples of the deliverables are database designs, information models (logical, physical, dimensional, etc.),
+    data migration plans, and data warehouses.&amp;nbsp; IT Specialists who primarily apply their technical skills in an
+    internal or external customer billable services and implementation environment.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dt9phawA5AJ-z6GoBNlVtA" name="component_design,_XAVF4UeYEeeamP9eYgxfAQ" guid="-dt9phawA5AJ-z6GoBNlVtA">
+    <keyConsiderations>&lt;p>&#xD;
+    In circumstances where the design of a component involves applying well understood, existing strategies, it is possible&#xD;
+    that you will not need a &lt;em>new&lt;/em> design. In those cases, you can simply refer to some existing design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Decide on the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Properties to include&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether or not any extensions to the Unified Modeling Language (UML) are needed; for example, your project may&#xD;
+        require additional stereotypes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The level of formality applied to the model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the model is mapped to other models, such as an architectural models and how&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether a single model or multiple models will be used&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How the model is mapped to an implementation model (this is very much affected by the decision to use&#xD;
+        reverse-engineering, code generation, or round-trip engineering); see Concept: Mapping from Code to Design&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is a specification of the internal structure and behavior of one or more major structural elements&#xD;
+    (components) of a system.&amp;nbsp; Each component realization describes the internal behaviors of a component that realize&#xD;
+    its interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6JvyNpQeLmM-Pb3Ck_QBnA" name="business_function_system_matrix,_XAbzkkeYEeeamP9eYgxfAQ" guid="-6JvyNpQeLmM-Pb3Ck_QBnA">
+    <keyConsiderations>Key consideration questions:&lt;br />&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does a choice need to be made for which of multiple potential providers of a function should be used as the single&#xD;
+        provider of a function&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there multiple potential providers that need to be replaced by a unified provider&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there multiple providers of the function that represent functional variations of the function such that a&#xD;
+        decision for which provider to use needs to be made at run-time based&amp;nbsp;on business rules.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there multiple providers of the function that represent non-functional variations of the function such that a&#xD;
+        decision for which provider to use needs to be made at run-time based on QoS related policy criteria&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does the business system expose the function using an interface that is easily exposed as a service&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does the function have dependencies on other functions such that the functions must be used in a specific&#xD;
+        combination or specific sequence (i.e. would the function need to be exposed only as a composition with other&#xD;
+        functions, rather than as a separate functions)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Business systems characteristics can affect the ability to expose functions as services. Each system that is being&#xD;
+    analyzed should be profiled at a high level so that it is described in terms that can support decisions for how its&#xD;
+    functions could be exposed as services. Business system functions are&amp;nbsp;expressed in broad terms rather than at the&#xD;
+    individual function level. If there are certain characteristics that vary widely for various groups of functions, it&#xD;
+    may be necessary to classify groups of functions and describing distinguishing characteristics of each function group&#xD;
+    separately.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Business Function/System Matrix (BF/SM) work product addresses two important aspects of the analysis of existing&#xD;
+    systems:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &amp;nbsp;Identifying associations between business functions and software functions, and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &amp;nbsp;Describing technical aspects of existing systems that are architecturally significant to an SOA-based&#xD;
+        solution.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Thus,&amp;nbsp;a Business Function System Matrix&amp;nbsp;instance is subdivided into two parts: Functionality Matrix, and&#xD;
+    Existing System Profiles.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Functionality Matrix section documents the mapping of business functions, services, and functions in business&#xD;
+    systems. It also captures important considerations that require decisions to be made, or that influence the level of&#xD;
+    effort needed to expose the system function as a service.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Existing System Profiles capture key high-level characteristics of systems, such as operating platform, application&#xD;
+    environment, process-focused integration capabilities, messaging capabilities, and other&amp;nbsp;aspects that are&#xD;
+    essential to understanding the technical feasibility of leveraging a system to realize services.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pvp_DVxUVmqAskgt-vwFDA" name="functional_areas_description,_XAbzlUeYEeeamP9eYgxfAQ" guid="-pvp_DVxUVmqAskgt-vwFDA">
+    <refinedDescription>&lt;p>&#xD;
+    The Functional Areas Description artifact documents functional domains, the functional areas that constitute them, the&#xD;
+    functions they provide, and IT subsystems that enable them, providing important linkage between the business view and&#xD;
+    the IT view. In this artifact, each functional area is concisely described in terms of the functions it is responsible&#xD;
+    for, as well as functions it depends on from other functional areas. The Functional Area Description artifact is&#xD;
+    typically produced during the service identification process as part of the overall domain modeling and decomposition&#xD;
+    effort.&lt;br />&#xD;
+    &lt;br />&#xD;
+    The identification of clearly defined business functions/capabilities/categories, functional areas, and associated key&#xD;
+    entities is important for the success of SOA-based initiatives because functional areas are a key to establishing&#xD;
+    cohesive business-aligned groups of services and the subsystems (and their boundaries) that will be used to realize&#xD;
+    those services.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If CBM is used as an input, the Competencies identified in the CBM Component Map can be treated as domains. Functional&#xD;
+    Area Analysis then decomposes those domains. Figure 1 shows the relationship between CBM and SOMA Functional Area&#xD;
+    Analysis elements:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;373&quot; alt=&quot;CBM-FAD mapping&quot; src=&quot;./../../practice.tech.component_design.extend-ibm_int/workproducts/resources/CBM-Func_Area_Map.jpg&quot; width=&quot;600&quot; />&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NjlEcWnvG_lDI1tYYlymxA" name="goal_service_model,_XAbzmEeYEeeamP9eYgxfAQ" guid="-NjlEcWnvG_lDI1tYYlymxA">
+    <keyConsiderations>&lt;p>&#xD;
+    This information is typically completed to two levels of elaboration.&amp;nbsp; The first elaboration should be as complete&#xD;
+    as possible in terms of identifying goals, sub-goals, KPIs and metrics.&amp;nbsp; The mapping of goals and sub-goals to&#xD;
+    services should be made as complete as feasible at this point in the process, but the validation and completion of this&#xD;
+    mapping is actually finalized during SOMA Service Exposure Decisions, resulting in the second elaboration of this work&#xD;
+    product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each goal and sub-goal should have a KPI and Metric associated with it.&amp;nbsp; Although an objective of Goal-Service&#xD;
+    Modeling is to map goals to services, high level goals may not map directly to a service – sub-goals tend to map more&#xD;
+    obviously to services.&amp;nbsp; When a service maps explicitly to a sub-goal it is also mapping implicitly to a higher&#xD;
+    level goal.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A single instance of the Goal-Service Model should be created to cover all business domain within the scope of the&#xD;
+    project.&amp;nbsp; Given that subject matter experts may be experts in a specific business domain, an iterative approach&#xD;
+    can be used to focus on one domain at a time to make interviews or work sessions more efficient.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    During Goal-Service Modeling interview or work sessions, consider the knowledge areas that the subject matter experts&#xD;
+    can speak to.&amp;nbsp; For example, it may be possible to capture some initial statements of non-functional requirements&#xD;
+    in parallel with this task.&amp;nbsp; This can provide valuable input into other more detailed requirements gathering&#xD;
+    sessions.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Goal-Service Model work product captures the following information:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        High level business goals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Sub-goals decomposed from the high level business goals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Key Performance Indicators (KPIs) associated with each goal and sub-goal&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Metrics associated with each KPI that can be used to identify what measurements need to be captured and analyzed to&#xD;
+        assess whether goals are being met&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Services that support the goals&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Business goals describe specific things that are important for the business to achieve. High level goals can be&#xD;
+    decomposed into sub-goals that become increasingly narrower in scope and definition.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once an enterprise has analyzed its mission and defined its goals, it needs a way to measure progress toward those&#xD;
+    goals. Key Performance Indicators (KPIs), also known as Key Success Indicators (KSIs) or Key Business Indicators&#xD;
+    (KBIs), are used by businesses to define and measure progress toward their goals. In SOMA, KPIs represent quantifiable&#xD;
+    objectives, agreed to when the goal is established, that reflect the critical success factors of an organization.&lt;br />&#xD;
+    &lt;br />&#xD;
+    KPIs differ depending on an industry and an organization. A sales organization may have as one of their KPIs the&#xD;
+    percentage of its sales that comes from return customers. A Customer Service Organization may have a KPI that measures&#xD;
+    a number of customer calls answered in under a minute. To determine if the objectives associated with a KPI are being&#xD;
+    met, the KPI may need to be broken down into one or more metrics, which identify specific measurements to collect for&#xD;
+    analysis (e.g. time to close an average sale deal).KPIs are associated with each goal and sub-goal to enable us to&#xD;
+    measure our success in achieving the goal.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4G6YCAu_H8TdPRojP5qYxg" name="service_model,_XAcaoUeYEeeamP9eYgxfAQ" guid="-4G6YCAu_H8TdPRojP5qYxg">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact and its sub-artifacts capture details about &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.soma.common.base-ibm_lic/guidances/termdefinitions/service_47B39A14.html&quot;&#xD;
+    guid=&quot;_YVy5MBowEdqx_IUyKxxtEg&quot;>Services&lt;/a> including service hierarchy (functional classification), service exposure&#xD;
+    (exposure classification), service composition and dependencies, and service specification. As an aggregate work&#xD;
+    product, this artifact captures&amp;nbsp;various pieces of informaton about&amp;nbsp;services in the portfolio, including a&#xD;
+    name, a short description, a mapping to functional area, process, existing asset, (with the one that led to first&#xD;
+    identification in bold or with asterisk), exposure state and decisions (Candidate, Expose), etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Service Model is a core work product in SOMA, updated and used by many activities. Service Model&#xD;
+    sub-artifacts&amp;nbsp;are updated throughout the Identification, Specification, and Realization phases of the service&#xD;
+    lifecycle.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yQkMffixKt_jn-x_9jxzuw" name="variations_model,_XAcapEeYEeeamP9eYgxfAQ" guid="-yQkMffixKt_jn-x_9jxzuw">
+    <keyConsiderations>&lt;p>&#xD;
+    Commonality and variation can be identified during or following business modeling activities using processes, business&#xD;
+    context, and/or business rules as inputs. Understanding the business process and any dependencies on types of business&#xD;
+    entities is a suitable starting point for identifying variations.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once process modeling and decomposition is complete, we use interviews and/or workshops to identify variations using&#xD;
+    questions such as:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;ul>&#xD;
+        &lt;li>&#xD;
+            Does the process path vary based on different types of business entities, users or roles?&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            Are there business rules that result in different ways of carrying out a process?&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            Do processes vary based on geographic, regional, international aspects?&lt;br />&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Variation-oriented analysis (VOA) is the process of identifying aspects of something that are subject to change and&#xD;
+    variation and separating them out from the static aspects.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    We use the Variations Model artifact to capture variations of types, policies, data, localization, interfaces,&#xD;
+    processes, etc., enabling us to identify opportunities to externalize those points of variance, making our service&#xD;
+    design more robust and adaptable to change. The Variations Model is a key input to solutions employing a dynamic&#xD;
+    assembly approach to service invocation, such as those based on Composite Business Services (CBS) and WebSphere&#xD;
+    Business Services Fabric.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Although it can be applied at various points of the lifecycle, we primarily build the Variations Model during SOMA&#xD;
+    Identification after we have modeled the business architecture and defined subsystems. Variations can be captured as&#xD;
+    text or more precisely using a domain-specific language as appropriate to the domain and environment. The process of&#xD;
+    designing software that supports externalization of variations is called Variation Oriented Design (VOD).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The basic principles of variation-oriented design include:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Separate changing from non-changing aspects of a problem domain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Separate the interface from implementation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reify what changes. If some element of the domain is in constant flux, then it may be warranted to reify that&#xD;
+        element into a class (or higher layer of reuse).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Build assets at each reuse level. The Reuse Levels are: base class, inheritance hierarchy, aggregation hierarchy,&#xD;
+        cluster, framework, component, pattern, generic architecture.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Each reuse element has its own rules of behavior in addition to the meta-data necessary to reflectively and&#xD;
+        adaptively self-describe the Reuse Element for run-time queries for service capabilities&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    Application of these rules of VOD help partition the system into changing and non-changing aspects. It makes the&#xD;
+    application of design pattern easier and enforcing the open-closed principle over the design and implementation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VvtJBRIhDQuyIvrvcYTHtA" name="service_portfolio,_XAe24UeYEeeamP9eYgxfAQ" guid="-VvtJBRIhDQuyIvrvcYTHtA">
+    <refinedDescription>&lt;p>&#xD;
+    The Service Portfolio captures information about the collection of services in scope as a whole, evolving through&#xD;
+    multiple iterations of service identification and refinement. Initially, we use the Service Portfolio to document the&#xD;
+    list of candidate services identified during service discovery activities. As functional areas are identified, we&#xD;
+    refine the Service Portfolio by categorizing the candidate services according to functional relationships into a&#xD;
+    service hierarchy. Later, we use the Service Portfolio to capture the list of services to be exposed as determined by&#xD;
+    service litmus tests, as well as the scope of exposure (e.g.: external, organization, business unit, or department) for&#xD;
+    those services.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There is only a single instance of this artifact for a Service Model showing all services.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Y4Pe3Vc1GK9kC_FTimmcuA" name="service_dependencies,_XAe25EeYEeeamP9eYgxfAQ" guid="-Y4Pe3Vc1GK9kC_FTimmcuA">
+    <refinedDescription>&lt;p>&#xD;
+    The Service Dependencies&amp;nbsp;artifact,&amp;nbsp;a sub-artifact of the Service Model,&amp;nbsp;documents the functional and&#xD;
+    temporal &lt;strong>dependencies&lt;/strong> that exist among services in the service portfolio. In addition, it captures the&#xD;
+    &lt;strong>compositions and flows&lt;/strong> among the services that constitute composite services. This artifact is created&#xD;
+    during SOMA specification phase.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Service Dependencies&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Service dependencies describe the relationships between services that arise in the larger context of how they will be&#xD;
+    used. When a service is formed from a composition of other services the composing service depends on the composed&#xD;
+    services (a &lt;em>&lt;strong>Functional&lt;/strong>&lt;/em> or &lt;em>&lt;strong>Type 1&lt;/strong>&lt;/em> dependency). When services are&#xD;
+    used in the context of a business process, there is a process related dependency that arises from the inherent sequence&#xD;
+    of steps in the business process that dictates the order in which services will be used (a&#xD;
+    &lt;em>&lt;strong>Temporal&lt;/strong>&lt;/em> or &lt;strong>&lt;em>Type 2&lt;/em>&lt;/strong> dependency). Stated again, the 2 main types of&#xD;
+    service dependencies include:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Functional dependencies (“Type 1”) that arise from composition of multiple services&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Temporal dependency (“Type 2”) where there is some pre- or post- condition or processing requirement that will need&#xD;
+        to be accounted for in compositions or choreographies.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>&#xD;
+    Service Dependencies are used for making state management decisions and also form the basis for detailed service&#xD;
+    specification and realization decisions.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Service Compositions and Flows&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Service compositions can be used to support short running, non-interruptible, as well as long running interruptible&#xD;
+    processes.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sbyzFpY6IjHEV4XIfMgS3Q" name="service_specification,_XAe250eYEeeamP9eYgxfAQ" guid="-sbyzFpY6IjHEV4XIfMgS3Q">
+    <keyConsiderations>Only those services that pass the Service Litmus test and are planned to be exposed are specified further.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact contains detailed information captured about services during SOMA Specification and Realization phases.&#xD;
+    Along with specifying the details of the exposed services, certain types of requirements and constraints are also&#xD;
+    summarized, including specific types of non-functional requirements and realization decisions specific to a service.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There should be one instance of this for each service in the model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;522&quot; alt=&quot;Service Specification Context&quot; src=&quot;./../../practice.tech.component_design.extend-ibm_int/workproducts/resources/Svc_Spec_Context.jpg&quot; width=&quot;600&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Table 1 shows the elements of the Service Specification that are captured in this artifact.&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;table title=&quot;Table 1 - Service Specification Elements&quot; cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;85%&quot; border=&quot;1&quot;>&#xD;
+    &lt;caption>&#xD;
+        Table 1 - Service Specification Elements&#xD;
+    &lt;/caption>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr>&#xD;
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>&#xD;
+                Section&#xD;
+            &lt;/th>&#xD;
+            &lt;th id=&quot;&quot; scope=&quot;col&quot; abbr=&quot;&quot;>&#xD;
+                Description&#xD;
+            &lt;/th>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Service Context Aware Attributes&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Specifies context aware attributes for dynamic assembling and routing.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Service Operation&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Identifies service operations.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Events&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Identify events that trigger services and service operations.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Rules and Policies&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Specify/associate rules executed by service and service operation and policies it follows.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Service Context Diagram&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Illustrates the service consumers and service providers.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Service Messages&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Documents messages that are exchanged between service consumer and service provider.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Service Non-Functional Requirements&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Documents the non-functional requirements that dictate those characteristics.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                State Management Decisions&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                State can be an important consideration for composite services and the related decisions are documented&#xD;
+                here.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Service Allocation To Components&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Map to Service Component realizing the service and Functional and Technical Components&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td>&#xD;
+                Service Realization Decisions&#xD;
+            &lt;/td>&#xD;
+            &lt;td>&#xD;
+                Documents architectural and technical decisions specific to the service.&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gFqn3ui5wvJmhpKh7BEUEg" name="detail_component_class_diagram,_YVuLgEeYEeeamP9eYgxfAQ" guid="-gFqn3ui5wvJmhpKh7BEUEg">
+    <refinedDescription>&lt;p>&#xD;
+    Define and detail the internal (white box) design of the component in terms of constituent elements and their&#xD;
+    relationship applying object oriented design principles within the confines of the corresponding subsystem boundary.&#xD;
+    During this activity, we refine the class diagram showing the relationships between the functional and technical&#xD;
+    components of each service component and define&amp;nbsp;internals of all service, functional, technical components.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fEGdkmskHEmqUzKK1NHF8A" name="detail_component_internal_flow,_Ywk7gEeYEeeamP9eYgxfAQ" guid="-fEGdkmskHEmqUzKK1NHF8A">
+    <refinedDescription>Detail the internal flow of the components. Detail the internal flow of service component in terms of functional and&#xD;
+technical component. Also detail the internal flow of the functional and technical component. When services are executed by&#xD;
+service components input messages are received processed and output messages are produced. This task describes the details&#xD;
+of such internal flows. The internal flow can be represented as a sequence or activity diagram. &lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0yJXarELDnYhKQ7-5v0BcQ" name="detail_variation_oriented_design,_aRf7sEeYEeeamP9eYgxfAQ" guid="-0yJXarELDnYhKQ7-5v0BcQ">
+    <refinedDescription>&lt;p>&#xD;
+    Based on the detailed design and refinements to component model, carry out a more finer design on the earlier&#xD;
+    design.&lt;br />&#xD;
+    &lt;br />&#xD;
+    As mentioned before, VOD, done during detailed design, identifies commonality and focuses on building pluggable&#xD;
+    variations and involves six principles that help separate the changing from the less changing aspects of software&#xD;
+    systems and isolate and encapsulate the changes. These six basic principles of VOD are briefly defined below:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Separate and model changing from non-changing aspects of the domain: Identify, Separate, Encapsulate and&#xD;
+        Externalize Increasing Variations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create type hierarchies for each variation point.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assign Rule Types to each Variation Type.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Implement three-levels of abstraction; use aggregate inheritance meta-pattern.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Start from reuse levels higher than objects and Build Assets at each reuse Level; Build Small Frameworks around&#xD;
+        Variation Points. In general, each Framework should have no more than 7+-2 classes.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Each Reuse Element has its own behaviors. Externalize behavior as configurable data that can be read into the&#xD;
+        application to allow soft-wiring.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7d-zElGKUqd6L26Ay6q5cQ" name="component_design,_aR158UeYEeeamP9eYgxfAQ" guid="-7d-zElGKUqd6L26Ay6q5cQ">
+    <keyConsiderations>&lt;p>&#xD;
+    In circumstances where the design of a component involves applying well understood, existing strategies, it is possible&#xD;
+    that you will not need a &lt;em>new&lt;/em> design. In those cases, you can simply refer to some existing design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Decide on the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Properties to include&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether or not any extensions to the Unified Modeling Language (UML) are needed; for example, your project may&#xD;
+        require additional stereotypes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The level of formality applied to the model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the model is mapped to other models, such as an architectural models and how&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether a single model or multiple models will be used&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How the model is mapped to an implementation model (this is very much affected by the decision to use&#xD;
+        reverse-engineering, code generation, or round-trip engineering); see Concept: Mapping from Code to Design&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is a specification of the internal structure and behavior of one or more major structural elements&#xD;
+    (components) of a system.&amp;nbsp; Each component realization describes the internal behaviors of a component that realize&#xD;
+    its interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>
